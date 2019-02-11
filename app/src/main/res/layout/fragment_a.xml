@@ -7,6 +7,17 @@
     android:background="@color/red"
     tools:context=".FragmentA">
 
+    <EditText
+        android:id="@+id/textview_argument"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/go_to_fragment_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/go_to_fragment_b"
         android:layout_width="wrap_content"

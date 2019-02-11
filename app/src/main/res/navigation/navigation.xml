@@ -22,5 +22,10 @@
         android:id="@+id/fragmentB"
         android:name="com.vsahin.basicnavigationexample.FragmentB"
         android:label="fragment_b"
-        tools:layout="@layout/fragment_b" />
+        tools:layout="@layout/fragment_b" >
+        <argument
+            android:name="argument"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
 </navigation>
