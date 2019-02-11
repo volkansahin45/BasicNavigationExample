@@ -11,9 +11,7 @@ import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_a.view.*
 
 class FragmentA : Fragment() {
-
-    private lateinit var textViewaArgument: TextView
-
+    
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
